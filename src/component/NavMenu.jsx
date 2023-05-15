@@ -36,7 +36,7 @@ function NavMenu() {
     <>
       <div className="container py-4 " id="navmenu">
         <div className="row">
-          <div className="col-3 col-lg-2 navbar-brand">
+          <div className="col-5 col-lg-2 navbar-brand">
             <Link to="/" id="logo" aria-label="Link to go to the homepage">
               <svg
                 version="1.1"

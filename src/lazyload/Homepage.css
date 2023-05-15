@@ -1,70 +1,65 @@
 #background {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    background-image: url(https://i.gifer.com/Cck.gif);
-    background-repeat: no-repeat;
-    background-position: -130px 60vh;
-    background-size: 500px auto;
-    filter: blur(.5px);
-  }
-  
-  #background div {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../data/astronaut.gif);
-    background-repeat: no-repeat;
-    background-position: 200px center;
-    background-size: 40px auto;
-    transform-origin: 150px 50%;
-    animation: astronaut 15s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
-  }
-  
-  @keyframes astronaut {
-    0% {
-      transform: rotate(180deg) translateX(130px);
-    }
-  
-    50% {
-      transform: rotate(270deg) translateX(-260px) translateY(50px) scale(6);
-    }
-    100% {
-      transform: rotate(360deg) translateX(-250px) translateY(290px);
-    }
-  }
-
-  #img-container{
-    position: absolute;
-    top:0;
-    right: 0;
-    z-index: -1;
-    float: right;
-    width: 60vw;
-    height: 105vh;
-
-  
-  }
-  #img-container img{
-   width: inherit;
-   height: inherit;
-    object-fit: cover;
-    object-position: center;
-    filter: blur(.8px);
-  }
-
-  #app{
-    background: transparent;
-  }
-  #home div{
-    background: transparent;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(../data/earth.gif), url(../data/stars.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: -130px 60vh, center;
+  background-size: 500px auto, 900px auto;
 }
- 
 
+#background div {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../data/astronaut.gif);
+  background-repeat: no-repeat;
+  background-position: 200px center;
+  background-size: 40px auto;
+  transform-origin: 150px 50%;
+  animation: astronaut 15s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+@keyframes astronaut {
+  0% {
+    transform: rotate(180deg) translateX(130px);
+  }
+
+  50% {
+    transform: rotate(270deg) translateX(-260px) translateY(50px) scale(6);
+  }
+  100% {
+    transform: rotate(360deg) translateX(-250px) translateY(290px);
+  }
+}
+
+#img-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  float: right;
+  width: 60vw;
+  height: 105vh;
+}
+#img-container img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+  filter: blur(0.8px);
+}
+
+#app {
+  background: transparent;
+}
+#home div {
+  background: transparent;
+}
