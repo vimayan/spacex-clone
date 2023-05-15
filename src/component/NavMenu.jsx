@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./Navmenu.css";
 import { Avatar, IconButton, Tooltip } from "@mui/material";
-import { deepOrange, green } from "@mui/material/colors";
+import { purple,brown } from "@mui/material/colors";
 import HomeIcon from "@mui/icons-material/Home";
 import HistoryIcon from "@mui/icons-material/History";
 import RocketIcon from "@mui/icons-material/Rocket";
@@ -11,21 +11,21 @@ import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 
 function NavMenu() {
   const icons = [
-    { color: deepOrange[500], icon: <HomeIcon />, tooltip: "Home", path: "/" },
+    { color: brown[500], icon: <HomeIcon />, tooltip: "Home", path: "/" },
     {
-      color: green[500],
+      color: purple[900],
       icon: <RocketIcon />,
       tooltip: "Rocket",
       path: "rocket",
     },
     {
-      color: deepOrange[500],
+      color:brown[500],
       icon: <RocketLaunchIcon />,
       tooltip: "Launch",
       path: "launch",
     },
     {
-      color: green[500],
+      color: purple[900],
       icon: <HistoryIcon />,
       tooltip: "History",
       path: "history",
