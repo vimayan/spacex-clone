@@ -1,0 +1,13 @@
+#app {
+  background-color: black;
+  height: 100vh;
+  
+}
+#home div {
+  background-color: black;
+
+}
+
+.know_more {
+  box-shadow: 0 0 10px white;
+}
