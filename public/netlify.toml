@@ -1,5 +1,25 @@
-/rocket /rocket
+ 
+[[redirects]]
 
-/launch /launch
+  from = "/rocket"
+  to = " /rocket"
+  status = 200
 
-/history /history
+[[redirects]]
+
+  from = "/launch"
+  to = "/launch"
+  status = 200
+
+  [[redirects]]
+
+  from = "/history"
+  to = "/history"
+  status = 200
+
+
+[[redirects]]
+
+  from = "/*"
+  to = "/indext.html"
+  status = 200
