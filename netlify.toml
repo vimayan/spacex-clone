@@ -1,22 +1,3 @@
-[build]
-  command = "npm run build"
-  publish = "/build"
-  base = "/"
-
-[[redirects]]
-  from = "/rocket"
-  to = "/rocket"
-  status = 200
-
-[[redirects]]
-  from = "/launch"
-  to = "/launch"
-  status = 200
-
-[[redirects]]
-  from = "/history"
-  to = "/history"
-  status = 200
 
 [[redirects]]
   from = "/*"
