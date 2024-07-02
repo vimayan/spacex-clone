@@ -7,12 +7,11 @@ import HistoryIcon from "@mui/icons-material/History";
 import RocketIcon from "@mui/icons-material/Rocket";
 import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 
-
 function NavMenu() {
   const icons = [
     { color: "#7C1034", icon: <HomeIcon />, tooltip: "Home", path: "/" },
     {
-      color:"#005EAB",
+      color: "#005EAB",
       icon: <RocketIcon />,
       tooltip: "Rocket",
       path: "rocket",
